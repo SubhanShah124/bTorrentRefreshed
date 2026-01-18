@@ -17,7 +17,7 @@
 <body ng-controller="BTorrentCtrl" ng-cloak="">
 <div class="ui">
 <header>
-  <h1 class="toptext">βTorrent<span class="version"> v{{$root.version}}</span></h1>
+  <h1 class="toptext">βTorrent<span class="version"> <span>v{{$root.version}}</span></h1>
   <div class="views" ng-show="$root.client.torrents.length == 0"><a ng-href="/#">Full</a> | <a ng-href="/download">Single Download</a> | <a ng-href="/view">Stream / View</a></div>
   <div class="aligncenter" style="width: 468px; display: inline-block;">
   </div>

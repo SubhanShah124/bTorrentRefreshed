@@ -1,11 +1,9 @@
 body {
-  height: 100%;
-  width: 100%; 
-  background-color: rgb(206, 223, 209);
+  
+  background-color: rgb(177, 211, 220); 
   padding: 15px 15px 15px 15px;
   text-align: left;
   justify-content: left;
-  
   margin-right: auto;
 }
 
@@ -49,19 +47,30 @@ footer {
 .ui {
   padding: 14px 14px 14px 14px;
   outline: 2px solid rgb(101, 188, 132);
-  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 90%;
   border-radius: 48px;
+  background-color: rgb(206, 245, 255);
 }
 .version {
   color: #494949e3;
   font-size: 0.3em; }
 
 .views {
-  margin-top: -20px;
-  margin-bottom: 10px; }
+  margin-top: 20px;
+  margin-bottom: 10px; 
+  padding-left: 20px;
+  text-align: left;
+  font-size: 20px;
+}
 
 .download-button {
-  margin-left: 10px; }
+  margin-left: 10px; 
+}
+button.fa-download{
+
+  background-color: #C43E3A;
+}
 
 .no-margin {
   margin: 0px; }
@@ -109,5 +118,6 @@ input[type="button"].button-danger:focus {
   border-color: #C43E3A; }
 
 a {
-  text-decoration: none
+  text-decoration: none;
+  color: black;
 }
