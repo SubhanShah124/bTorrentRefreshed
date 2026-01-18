@@ -1,9 +1,27 @@
 body {
   height: 100%;
-  width: 100%; }
+  width: 100%; 
+  background-color: rgb(206, 223, 209);
+  padding: 15px 15px 15px 15px;
+  text-align: left;
+  justify-content: left;
+  
+  margin-right: auto;
+}
 
+.toptext {
+  text-align: left;
+}
+.links {
+  width: 30%;
+}
+.footertext {
+  width: 70%;
+}
 header, footer, .center {
-  text-align: center; }
+  text-align: center; 
+  display: flex;
+}
 
 th, td {
   padding: 2px 15px;
@@ -15,7 +33,9 @@ h2, h3, h4, h5, h6, ul, li {
   margin-bottom: 0; }
 
 footer {
-  margin-top: 10px; }
+  margin-top: 10px; 
+  display: flex;
+}
 
 .container {
   width: 95%;
@@ -26,8 +46,14 @@ footer {
   width: 100%;
   height: 200px; }
 
+.ui {
+  padding: 14px 14px 14px 14px;
+  outline: 2px solid rgb(101, 188, 132);
+  width: 80%;
+  border-radius: 48px;
+}
 .version {
-  color: #ccc;
+  color: #494949e3;
   font-size: 0.3em; }
 
 .views {
